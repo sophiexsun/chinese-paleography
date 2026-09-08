@@ -104,25 +104,25 @@ Let:
 
 A recurring relation for a semantic part is learned from other phonetic families and applied to a held-out family:
 
-\[
+$\[
 r_S^{(-F^*)}=\operatorname{mean}\left[E(S+P)-E(P)\right]
-\]
+\]$
 
-\[
+$\[
 \operatorname*{arg\,max}_{C}\cos\left(E(C), E(P^*)+r_S^{(-F^*)}\right)=C^*
-\]
+\]$
 
 #### Phonetic-part test
 
 A recurring relation for a phonetic part is learned from other semantic contexts and applied to a held-out semantic part:
 
-\[
+$\[
 r_P^{(-S^*)}=\operatorname{mean}\left[E(S+P)-E(S_{independent})\right]
-\]
+\]$
 
-\[
+$\[
 \operatorname*{arg\,max}_{C}\cos\left(E(C), E(S_{independent}^*)+r_P^{(-S^*)}\right)=C^*
-\]
+\]$
 
 In plain language, the test asks whether adding a learned component pattern moves the correct held-out character upward in a candidate list. The baseline and offset queries use the same candidates, and the held-out case is excluded from learning its own relation.
 
