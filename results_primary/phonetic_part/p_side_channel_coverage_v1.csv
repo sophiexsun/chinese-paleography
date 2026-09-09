@@ -1,0 +1,17 @@
+model,channel,channel_eligible_characters,mapped_s_independent_characters_requested,mapped_s_independent_characters_available,mapped_s_independent_characters_unavailable,documented_direct_edges,structurally_mapped_edges,mapped_edges_with_derived_available,mapped_edges_with_s_available,literal_offset_eligible_edges,heldout_edges_ge3,heldout_edges_ge5,heldout_edges_ge8,root_families_ge3
+bge_m3_1024d,cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+bge_m3_1024d,en_def_translated_cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+bge_m3_1024d,en_gloss_unihan,9153,218,213,5,6195,5715,5108,5597,4993,4186,3577,2667,448
+bge_m3_1024d,zh_char,11151,218,216,2,6195,5715,5715,5600,5600,4763,4181,3313,474
+gte_multilingual_base_768d,cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+gte_multilingual_base_768d,en_def_translated_cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+gte_multilingual_base_768d,en_gloss_unihan,9153,218,213,5,6195,5715,5108,5597,4993,4186,3577,2667,448
+gte_multilingual_base_768d,zh_char,11151,218,216,2,6195,5715,5715,5600,5600,4763,4181,3313,474
+qwen3_0.6b_1024d,cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+qwen3_0.6b_1024d,en_def_translated_cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+qwen3_0.6b_1024d,en_gloss_unihan,9153,218,213,5,6195,5715,5108,5597,4993,4186,3577,2667,448
+qwen3_0.6b_1024d,zh_char,11151,218,216,2,6195,5715,5715,5600,5600,4763,4181,3313,474
+qwen3_4b_2560d_int8,cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+qwen3_4b_2560d_int8,en_def_translated_cn_def,6040,218,199,19,6195,5715,3586,5174,3259,2398,1804,1112,320
+qwen3_4b_2560d_int8,en_gloss_unihan,9153,218,213,5,6195,5715,5108,5597,4993,4186,3577,2667,448
+qwen3_4b_2560d_int8,zh_char,11151,218,216,2,6195,5715,5715,5600,5600,4763,4181,3313,474

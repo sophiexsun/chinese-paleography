@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "script_version": "1.0.0",
+  "created_utc": "2026-09-07T20:03:46.543346+00:00",
+  "models": [
+    "qwen3_0.6b_1024d",
+    "bge_m3_1024d",
+    "gte_multilingual_base_768d",
+    "qwen3_4b_2560d_int8"
+  ],
+  "channels": [
+    "zh_char",
+    "en_gloss_unihan",
+    "cn_def",
+    "en_def_translated_cn_def",
+    "en_gloss_google"
+  ],
+  "primary_offset": "r_P = mean across distinct held-in S contexts of mean(E(C)-E(S_independent))",
+  "holdout_rule": "exclude every edge sharing the held-out canonical S context",
+  "primary_threshold": "at least 3 OTHER distinct eligible S contexts",
+  "sensitivities": [
+    5,
+    8
+  ],
+  "candidate_universe": "all channel-eligible characters except the input S-independent character",
+  "tie_policy": "frozen character_index.csv order; first exact cosine maximum wins",
+  "mapping_rule": "only frozen high-confidence A/B rows marked primary eligible in A4",
+  "space": "raw E, uncentered; cosine normalizes query and candidate only",
+  "learned_W": false,
+  "PCA_CCA_SVCCA": false,
+  "matched_s_side_source": "/content/Phase_IV_Clean_Reproduction_v1/Clean_Reproduction_v1/Phase_IV_C_RawOffset_E_v5/forward_analogy_retrieval_v5.csv",
+  "python": "3.13.15"
+}
