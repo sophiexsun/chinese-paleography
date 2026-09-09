@@ -1,0 +1,17 @@
+model,channel,eligible_characters,documented_direct_edges,eligible_direct_edges,immediate_families,root_anchor_families,relation_classes,heldout_test_edges_ge3,heldout_test_edges_ge5,heldout_test_edges_ge8,anchors_outside_population,outside_anchors_available_in_channel,normalization_corrected_edges_used,disputed_edges_used,duplicate_canonical_edges_rejected,lineage_graph_valid,corrected_qing_edges_present,cross_reference_definition_rows
+bge_m3_1024d,cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+bge_m3_1024d,en_def_translated_cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+bge_m3_1024d,en_gloss_unihan,9153,6195,4880,1094,804,263,4648,4585,4472,714,0,39,81,0,True,18,209
+bge_m3_1024d,zh_char,11151,6195,5481,1171,838,280,5240,5179,5073,714,0,40,93,0,True,18,209
+gte_multilingual_base_768d,cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+gte_multilingual_base_768d,en_def_translated_cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+gte_multilingual_base_768d,en_gloss_unihan,9153,6195,4880,1094,804,263,4648,4585,4472,714,0,39,81,0,True,18,209
+gte_multilingual_base_768d,zh_char,11151,6195,5481,1171,838,280,5240,5179,5073,714,0,40,93,0,True,18,209
+qwen3_0.6b_1024d,cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+qwen3_0.6b_1024d,en_def_translated_cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+qwen3_0.6b_1024d,en_gloss_unihan,9153,6195,4880,1094,804,263,4648,4585,4472,714,0,39,81,0,True,18,209
+qwen3_0.6b_1024d,zh_char,11151,6195,5481,1171,838,280,5240,5179,5073,714,0,40,93,0,True,18,209
+qwen3_4b_2560d_int8,cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+qwen3_4b_2560d_int8,en_def_translated_cn_def,6040,6195,3160,900,700,238,2960,2883,2790,714,0,30,59,0,True,18,209
+qwen3_4b_2560d_int8,en_gloss_unihan,9153,6195,4880,1094,804,263,4648,4585,4472,714,0,39,81,0,True,18,209
+qwen3_4b_2560d_int8,zh_char,11151,6195,5481,1171,838,280,5240,5179,5073,714,0,40,93,0,True,18,209

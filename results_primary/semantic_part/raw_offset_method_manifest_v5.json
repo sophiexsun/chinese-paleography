@@ -1,0 +1,51 @@
+{
+  "schema_version": 5,
+  "script_version": "5.0.0",
+  "created_utc": "2026-09-07T19:59:57.306223+00:00",
+  "master": "relational_character_master_5channel_translated_v2.csv",
+  "master_sha256": "dbaa165b6843bb687659fce81dedc139775a6f9b98f3cbfda952e0ba14434fc5",
+  "authoritative_edges": "relational_direct_edges_v2.csv",
+  "edges_sha256": "1e7c972c120bec39d59998b97f45a8dd3c584c37cf888a5f85f43d06087b9f39",
+  "census": "Traditional_Chinese_Component_Family_Universe_11151_v3.xlsx",
+  "census_sha256": "19192ccdda875f755abfb83f2deba9d5884c3163691c733d49b4f72aae712cb0",
+  "normalization_qc": "Phase_IV_A3_Normalization_Correction_QC_v1.md",
+  "normalization_qc_sha256": "5f113e71e02d11576b83f7579f8f40aeef092efb2d439f31525100465179fc38",
+  "sha256_manifest": "Phase_IV_A3_SHA256_v1.txt",
+  "sha256_manifest_sha256": "29d078cce9d72ca427c7b78828bd2c0c02195f314ce1c00b18c05475670b497c",
+  "models": [
+    "qwen3_0.6b_1024d",
+    "bge_m3_1024d",
+    "gte_multilingual_base_768d",
+    "qwen3_4b_2560d_int8"
+  ],
+  "channels": [
+    "zh_char",
+    "en_gloss_unihan",
+    "cn_def",
+    "en_def_translated_cn_def",
+    "en_gloss_google"
+  ],
+  "primary_space": "raw E(x), uncentered",
+  "normalization": "cosine calculations normalize operands; offset subtraction uses E_raw",
+  "leakage_control": "leave-one-root-anchor-family-out",
+  "minimum_other_training_root_families": 3,
+  "stricter_sensitivity_thresholds": [
+    5,
+    8
+  ],
+  "family_identifier": "frozen family_id_root from edge v2",
+  "structural_source_rule": "consume edge v2 directly; no edge reconstruction or hidden normalization",
+  "candidate_universes": {
+    "forward": "all channel-eligible characters except input anchor",
+    "inverse": "unique eligible documented normalized immediate anchors from edge v2"
+  },
+  "identification_rule": "predicted identity is numpy.argmax of exact cosine scores",
+  "deterministic_tie_policy": "candidate order is frozen character_index.csv order; numpy.argmax selects the first maximum; true rank counts greater scores plus equal-score candidates earlier in that order",
+  "null_repetitions": 100,
+  "learning_repetitions": 30,
+  "seed": 20260903,
+  "interpretation_boundary": "zh_char alone may reflect semantic, distributional, graphic, tokenization, or mixed learned structure; semantic channels are independent probes",
+  "W_used": false,
+  "PCA_CCA_SVCCA_used": false,
+  "python": "3.13.15"
+}
