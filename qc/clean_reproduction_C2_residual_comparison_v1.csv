@@ -1,0 +1,2 @@
+status,detail,reference_rows,reproduced_rows,differing_cells,max_numeric_abs_error,reference_sha256,reproduced_sha256,analysis,file,reference_exists,reproduced_exists
+PASS,within tolerance,8984,8984,0,0.0,db169e89a917fc632fa29667b969226df5a809501bdba8b5d840f659ae6d54b3,db169e89a917fc632fa29667b969226df5a809501bdba8b5d840f659ae6d54b3,C2,residual_family_coherence_v5.csv,True,True

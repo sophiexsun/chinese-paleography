@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-09-07T20:04:16.171962+00:00",
+  "cache_gate": "16/16 PASS",
+  "c2_conditions": 16,
+  "d_conditions": 16,
+  "comparison_tolerance": 1e-06,
+  "clean_reproduction_pass": true,
+  "comparison_manifest_correction": "Runner v1 referenced a nonexistent residual_family_comparison_v5.csv; actual residual CSVs were discovered and compared separately.",
+  "actual_residual_files_compared": [
+    "residual_family_coherence_v5.csv"
+  ],
+  "actual_residual_comparisons_pass": true
+}
