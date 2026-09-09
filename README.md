@@ -235,16 +235,15 @@ The release is organized around frozen inputs, executable scripts, primary resul
 ```text
 .
 ├── README.md
-├── MANIFEST.json
-├── environment.txt
+├── PROJECT_MANIFEST_v3.md
+├── environment_lock_v1.json
 ├── inputs/                 # Frozen character, definition, and edge tables
 ├── scripts/                # Data preparation and analysis code
 ├── results_primary/        # Uncentered primary analyses
 ├── results_sensitivity/    # Centered and threshold sensitivities
 ├── qc/                     # Integrity, leakage, and reproduction checks
 ├── figures/                # Paper and public-facing figures
-├── tables/                 # Compact reported results
-└── SHA256SUMS.txt           # Release checksums
+└──tables/                 # Compact reported results
 ```
 
 Files should be interpreted together with `MANIFEST.json`, which records model versions, channels, eligibility rules, random seeds, candidate universes, pooling methods, thresholds, and input and script hashes.
