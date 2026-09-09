@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-09-07T02:17:14.692305+00:00",
+  "cache_gate": "16/16 PASS",
+  "c2_markers": 16,
+  "d_markers": 16,
+  "raw_remains_primary": true,
+  "center_definition": "within each model/channel, mean over every cached character; E_centered=E_raw-mu used for all entities and candidates",
+  "centered_gate_pass": true
+}
