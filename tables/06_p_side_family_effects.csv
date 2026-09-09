@@ -1,0 +1,17 @@
+model_label,channel_label,families,positive_family_share,positive_family_share_pct
+BGE-M3,Character,474,0.3670886075949367,36.708860759493675
+BGE-M3,Chinese definition,320,0.48125,48.125
+BGE-M3,Translated EN definition,320,0.490625,49.0625
+BGE-M3,Unihan EN gloss,448,0.578125,57.8125
+GTE,Character,474,0.33122362869198313,33.12236286919831
+GTE,Chinese definition,320,0.621875,62.18749999999999
+GTE,Translated EN definition,320,0.56875,56.875
+GTE,Unihan EN gloss,448,0.6517857142857143,65.17857142857143
+Qwen 0.6B,Character,474,0.729957805907173,72.9957805907173
+Qwen 0.6B,Chinese definition,320,0.6125,61.25000000000001
+Qwen 0.6B,Translated EN definition,320,0.534375,53.43750000000001
+Qwen 0.6B,Unihan EN gloss,448,0.546875,54.6875
+Qwen 4B,Character,474,0.6919831223628692,69.19831223628692
+Qwen 4B,Chinese definition,320,0.56875,56.875
+Qwen 4B,Translated EN definition,320,0.5,50.0
+Qwen 4B,Unihan EN gloss,448,0.5446428571428571,54.46428571428571

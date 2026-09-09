@@ -1,0 +1,80 @@
+{
+  "recurrence": {
+    "eligible_relations": 109,
+    "percent_above_null": 95.41284403669725
+  },
+  "both_components": [
+    {
+      "channel": "cn_def",
+      "s_side_percent_rank_improved": 85.43714433523022,
+      "p_side_percent_rank_improved": 53.76357992757372
+    },
+    {
+      "channel": "en_def_translated_cn_def",
+      "s_side_percent_rank_improved": 84.02741852043457,
+      "p_side_percent_rank_improved": 52.76771857216762
+    },
+    {
+      "channel": "en_gloss_unihan",
+      "s_side_percent_rank_improved": 87.28685368536853,
+      "p_side_percent_rank_improved": 60.155390539053904
+    },
+    {
+      "channel": "zh_char",
+      "s_side_percent_rank_improved": 80.99495919347095,
+      "p_side_percent_rank_improved": 68.25492078732597
+    }
+  ],
+  "asymmetry": [
+    {
+      "channel": "cn_def",
+      "s": 1830.5,
+      "p": 47.75
+    },
+    {
+      "channel": "en_def_translated_cn_def",
+      "s": 1704.25,
+      "p": 6.75
+    },
+    {
+      "channel": "en_gloss_unihan",
+      "s": 2833.5,
+      "p": 122.125
+    }
+  ],
+  "p_replication": [
+    {
+      "model": "bge_m3_1024d",
+      "baseline_recall_at_10": 0.0162446249402771,
+      "offset_recall_at_10": 0.0430004777830864
+    },
+    {
+      "model": "gte_multilingual_base_768d",
+      "baseline_recall_at_10": 0.0186335403726708,
+      "offset_recall_at_10": 0.0451505016722408
+    },
+    {
+      "model": "qwen3_0.6b_1024d",
+      "baseline_recall_at_10": 0.015527950310559,
+      "offset_recall_at_10": 0.0489727663640707
+    },
+    {
+      "model": "qwen3_4b_2560d_int8",
+      "baseline_recall_at_10": 0.0286669851887243,
+      "offset_recall_at_10": 0.0539894887720974
+    }
+  ],
+  "reproduction": {
+    "completed_utc": "2026-09-07T20:04:16.171962+00:00",
+    "cache_gate": "16/16 PASS",
+    "c2_conditions": 16,
+    "d_conditions": 16,
+    "comparison_tolerance": 1e-06,
+    "clean_reproduction_pass": true,
+    "comparison_manifest_correction": "Runner v1 referenced a nonexistent residual_family_comparison_v5.csv; actual residual CSVs were discovered and compared separately.",
+    "actual_residual_files_compared": [
+      "residual_family_coherence_v5.csv"
+    ],
+    "actual_residual_comparisons_pass": true
+  }
+}

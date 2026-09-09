@@ -1,0 +1,33 @@
+model,channel,side,recall10_gain_pp
+BGE-M3,Chinese definition,P-side,-0.15519917227108
+BGE-M3,Chinese definition,S-side,1.08639420589756
+BGE-M3,Translated EN definition,P-side,-0.20693222969477001
+BGE-M3,Translated EN definition,S-side,0.98292809105018
+BGE-M3,Unihan EN gloss,P-side,2.53025302530253
+BGE-M3,Unihan EN gloss,S-side,1.15511551155115
+BGE-M3,Character,P-side,-0.5760921747479499
+BGE-M3,Character,S-side,-0.14402304368698
+GTE,Chinese definition,P-side,0.51733057423693
+GTE,Chinese definition,S-side,0.8794619762027899
+GTE,Translated EN definition,P-side,-0.36213140196585003
+GTE,Translated EN definition,S-side,0.8794619762027899
+GTE,Unihan EN gloss,P-side,2.36523652365236
+GTE,Unihan EN gloss,S-side,1.37513751375137
+GTE,Character,P-side,-0.12001920307248999
+GTE,Character,S-side,0.07201152184349
+Qwen 0.6B,Chinese definition,P-side,-0.15519917227108
+Qwen 0.6B,Chinese definition,S-side,1.39679255043973
+Qwen 0.6B,Translated EN definition,P-side,0.05173305742369
+Qwen 0.6B,Translated EN definition,S-side,1.08639420589756
+Qwen 0.6B,Unihan EN gloss,P-side,3.1353135313531304
+Qwen 0.6B,Unihan EN gloss,S-side,1.67766776677667
+Qwen 0.6B,Character,P-side,1.3682189150264
+Qwen 0.6B,Character,S-side,2.64042246759481
+Qwen 4B,Chinese definition,P-side,0.41386445938954003
+Qwen 4B,Chinese definition,S-side,1.29332643559234
+Qwen 4B,Translated EN definition,P-side,0.20693222969477001
+Qwen 4B,Translated EN definition,S-side,1.24159337816864
+Qwen 4B,Unihan EN gloss,P-side,2.44774477447744
+Qwen 4B,Unihan EN gloss,S-side,1.37513751375137
+Qwen 4B,Character,P-side,3.12049927988478
+Qwen 4B,Character,S-side,6.24099855976956

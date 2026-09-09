@@ -1,0 +1,192 @@
+{
+  "sunny": {
+    "semantic_part": [
+      {
+        "channel": "cn_def",
+        "gain_pct_pool": 11.210465308825963,
+        "positions_gained": 677.0,
+        "positive_models": 4,
+        "models": 4
+      },
+      {
+        "channel": "en_def_translated_cn_def",
+        "gain_pct_pool": 2.500413975823812,
+        "positions_gained": 151.0,
+        "positive_models": 4,
+        "models": 4
+      },
+      {
+        "channel": "en_gloss_unihan",
+        "gain_pct_pool": 23.06326486013986,
+        "positions_gained": 2110.75,
+        "positive_models": 4,
+        "models": 4
+      }
+    ],
+    "phonetic_part": [
+      {
+        "channel": "cn_def",
+        "gain_pct_pool": 1.051498592482199,
+        "positions_gained": 63.5,
+        "positive_models": 4,
+        "models": 4
+      },
+      {
+        "channel": "en_def_translated_cn_def",
+        "gain_pct_pool": 4.512336479549594,
+        "positions_gained": 272.5,
+        "positive_models": 4,
+        "models": 4
+      },
+      {
+        "channel": "en_gloss_unihan",
+        "gain_pct_pool": 2.627840909090909,
+        "positions_gained": 240.5,
+        "positive_models": 3,
+        "models": 4
+      }
+    ],
+    "semantic_positive_tests": 12,
+    "semantic_total_tests": 12,
+    "phonetic_positive_tests": 11,
+    "phonetic_total_tests": 12
+  },
+  "qing_family_phonetic_part": {
+    "positive_tests": 112,
+    "total_tests": 160,
+    "character_summary": [
+      {
+        "derived_character": "菁",
+        "tests": 4,
+        "improved": 1,
+        "positive_rate": 25.0,
+        "median_gain_pct": -2.7644230769230766,
+        "semantic_component": "艹"
+      },
+      {
+        "derived_character": "綪",
+        "tests": 4,
+        "improved": 1,
+        "positive_rate": 25.0,
+        "median_gain_pct": -1.0926573426573425,
+        "semantic_component": "糸"
+      },
+      {
+        "derived_character": "蜻",
+        "tests": 12,
+        "improved": 5,
+        "positive_rate": 41.66666666666667,
+        "median_gain_pct": -2.6163272064911407,
+        "semantic_component": "虫"
+      },
+      {
+        "derived_character": "睛",
+        "tests": 12,
+        "improved": 6,
+        "positive_rate": 50.0,
+        "median_gain_pct": 0.008279516476237788,
+        "semantic_component": "目"
+      },
+      {
+        "derived_character": "請",
+        "tests": 12,
+        "improved": 6,
+        "positive_rate": 50.0,
+        "median_gain_pct": 0.04139758238118896,
+        "semantic_component": "言"
+      },
+      {
+        "derived_character": "錆",
+        "tests": 4,
+        "improved": 2,
+        "positive_rate": 50.0,
+        "median_gain_pct": 0.3441870629370629,
+        "semantic_component": "釒"
+      },
+      {
+        "derived_character": "靜",
+        "tests": 12,
+        "improved": 7,
+        "positive_rate": 58.333333333333336,
+        "median_gain_pct": 2.906110283159464,
+        "semantic_component": "爭"
+      },
+      {
+        "derived_character": "猜",
+        "tests": 12,
+        "improved": 8,
+        "positive_rate": 66.66666666666666,
+        "median_gain_pct": 2.3265441298228184,
+        "semantic_component": "犭"
+      },
+      {
+        "derived_character": "鯖",
+        "tests": 12,
+        "improved": 9,
+        "positive_rate": 75.0,
+        "median_gain_pct": 0.7120384169564498,
+        "semantic_component": "魚"
+      },
+      {
+        "derived_character": "靖",
+        "tests": 12,
+        "improved": 9,
+        "positive_rate": 75.0,
+        "median_gain_pct": 6.105008948246653,
+        "semantic_component": "立"
+      },
+      {
+        "derived_character": "精",
+        "tests": 12,
+        "improved": 9,
+        "positive_rate": 75.0,
+        "median_gain_pct": 6.714687862228846,
+        "semantic_component": "米"
+      },
+      {
+        "derived_character": "晴",
+        "tests": 12,
+        "improved": 11,
+        "positive_rate": 91.66666666666666,
+        "median_gain_pct": 0.5630071203841696,
+        "semantic_component": "日"
+      },
+      {
+        "derived_character": "倩",
+        "tests": 12,
+        "improved": 11,
+        "positive_rate": 91.66666666666666,
+        "median_gain_pct": 5.593380606187983,
+        "semantic_component": "亻"
+      },
+      {
+        "derived_character": "靚",
+        "tests": 12,
+        "improved": 11,
+        "positive_rate": 91.66666666666666,
+        "median_gain_pct": 12.709057791025003,
+        "semantic_component": "見"
+      },
+      {
+        "derived_character": "情",
+        "tests": 12,
+        "improved": 12,
+        "positive_rate": 100.0,
+        "median_gain_pct": 7.319092564994204,
+        "semantic_component": "忄"
+      },
+      {
+        "derived_character": "婧",
+        "tests": 4,
+        "improved": 4,
+        "positive_rate": 100.0,
+        "median_gain_pct": 22.19187062937063,
+        "semantic_component": "女"
+      }
+    ]
+  },
+  "clear_water": {
+    "tested": false,
+    "reason": "QING + WATER relational edge absent from frozen Phase IV edge data"
+  }
+}
