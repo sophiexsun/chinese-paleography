@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "input_hashes": {
+    "relational_direct_edges_v2.csv": "1e7c972c120bec39d59998b97f45a8dd3c584c37cf888a5f85f43d06087b9f39",
+    "relational_character_master_5channel_translated_v2.csv": "dbaa165b6843bb687659fce81dedc139775a6f9b98f3cbfda952e0ba14434fc5"
+  },
+  "software": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+    "pandas": "2.2.3",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39"
+  },
+  "counts": {
+    "population": 11151,
+    "v2_edges": 6195,
+    "v3_active_edges": 6196,
+    "added": 1,
+    "disputed_active": 118,
+    "candidate_analyses": 22396,
+    "parsed_characters": 11109,
+    "parse_failures": 42,
+    "character_dispositions": {
+      "confirmed_edge": 6078,
+      "component_not_in_population": 2549,
+      "insufficient_external_evidence": 2233,
+      "confirmed_non_edge": 142,
+      "ambiguous_or_disputed": 118,
+      "structurally_unresolved": 31
+    },
+    "families": 1001
+  },
+  "checks": {
+    "input_hashes_match": true,
+    "dispositions_11151": true,
+    "duplicate_canonical_edges": 0,
+    "self_edges": 0,
+    "cycles": 0,
+    "qing_edge_confirmed": true,
+    "multi_primary_derived_count": 0,
+    "family_edges_reconcile": true
+  },
+  "audit_boundary": "Only 清 was added; other structural/pronunciation candidates remain unconfirmed unless independently sourced.",
+  "elapsed_seconds": 27.503
+}
